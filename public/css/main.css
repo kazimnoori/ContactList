@@ -1,0 +1,104 @@
+/** General style and font formatting**/
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+}
+
+/**Header and wrapper style**/
+.header {
+    background-color: #0c114f;
+    width: 100%;
+    height: 95px;
+
+}
+
+#wrapper {
+    width: 100%;
+    padding-top: 30px;
+    margin-right: auto;
+    margin-left: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+/**Menu styling**/
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: right;
+    margin-right: 30px;
+ }
+
+ /**Media query for styling on smaller screens**/
+ @media screen and (max-width: 768px) {
+    #menu a {
+        text-align: center;
+        width: 100%;
+        height: 10px;
+    }
+}
+
+/**Style for the menu when hovered over or selected**/
+ #menu a:hover {
+    color:gray;
+}
+#menu a.selected, #menu a:hover {
+    color: gray;
+}
+
+/**Form elements styles**/
+input[type="text"] {
+    background-color: white;
+    width: 300px;
+    outline: none;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    padding: 5px;
+}
+input[type="text"] :hover {
+    border: 1px solid #006FC4;
+}
+input[type="submit"]{
+    font-size: 18px;
+    padding: 5px;
+    width: 150px;
+    background-color: #0c114f;
+    border-radius: 8px;
+    color: white;
+
+}
+input[type="submit"]:hover {
+    color: gray;
+    border: 1px;
+    cursor: pointer;
+}
+
+/**Table style and formatting**/
+table[type="datarender"]{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th[type="datarender"]{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even)[type="datarender"]{
+    background-color: #dddddd;
+}
+
+form {
+    text-align: center;
+    margin-top: 3%;
+}

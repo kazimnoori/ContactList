@@ -1,0 +1,8 @@
+//Seed Data//
+[
+  {"first_name": "Kazim", "last_name": "Noori", "company": "LMG", "email": "noorikazim@gmail.com", "phone":"2708058451"},
+  {"first_name": "Charles", "last_name": "Helms", "company": "LF", "email": "charlesm@gmail.com", "phone":"1234567890"},
+  {"first_name": "Ben", "last_name": "Moore", "company": "ED", "email": "ben@gmail.com", "phone":"0987654321"},
+  {"first_name": "Tommy", "last_name": "Clark", "company": "Louisville Forward", "email": "tommy@yahoo.com", "phone": "502-323-3322"}
+
+]
